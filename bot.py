@@ -3,8 +3,8 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 
-PAROLA_CHIAVE = "ciao"
-RISPOSTA = "Ciao! Come va?"
+PAROLA_CHIAVE = "shushku"
+RISPOSTA = "Zitto! Qui la gente mi conosce?"
 
 def ascolta(update, context):
     if update.message and update.message.text:
