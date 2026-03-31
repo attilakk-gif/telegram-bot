@@ -20,7 +20,7 @@ TRIGGERS = {
         "Te sei un bimbettone",
         "Te sei un bimbettone",
         "Boria 100%",
-        "Te  mi hai suonato il campanello",
+        "Te mi hai suonato il campanello",
         "Ma te sei un depravato",
         "Oh se ride vuol dire che è vero",
         "È un bagascione",
@@ -38,6 +38,18 @@ def ascolta(update, context):
                 update.message.reply_text(random.choice(risposte))
                 return
 
-        # DEBUG: se arriva qui, il bot ha letto il messaggio ma non ha trovato trigger
+        # DEBUG
         update.message.reply_text("Ti ho letto ma non ho trovato nessun trigger.")
+
+def main():
+    updater = Updater(TOKEN, use_context=True)
+    dp = updater.dispatcher
+
+    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, ascolta))
+
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == "__main__":
+    main()
 
