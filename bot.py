@@ -33,8 +33,11 @@ def ascolta(update, context):
     if update.message and update.message.text:
         testo = update.message.text.lower()
 
-        # Controlla ogni trigger
         for trigger, risposte in TRIGGERS.items():
             if trigger in testo:
                 update.message.reply_text(random.choice(risposte))
                 return
+
+        # DEBUG: se arriva qui, il bot ha letto il messaggio ma non ha trovato trigger
+        update.message.reply_text("Ti ho letto ma non ho trovato nessun trigger.")
+
