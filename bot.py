@@ -38,8 +38,7 @@ def ascolta(update, context):
                 update.message.reply_text(random.choice(risposte))
                 return
 
-        # DEBUG
-        update.message.reply_text("Ti ho letto ma non ho trovato nessun trigger.")
+        
 
 def main():
     updater = Updater(TOKEN, use_context=True)
