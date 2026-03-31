@@ -10,21 +10,21 @@ TRIGGERS = {
         "Zitto! Qui la gente mi conosce!",
         "Oh, abbassa la voce!",
         "Ehi, piano con le parole!",
-        "Non farmi fare figuracce!"
-        "Zitto! Io con voi non ci esco più"
+        "Non farmi fare figuracce!",
+        "Zitto! Io con voi non ci esco più",
         "Li c'è il su' ragazzo!"
     ],
     "fabio": [
         "Bocca mia stai zitta!",
         "Ma vatti a fa fa un pompino!",
         "Te sei un bimbettone",
-        "Te sei un bimbettone"
-        "Boria 100%"
-        "Te  mi hai suonato il campanello"
-        "Ma te sei un depravato"
-        "Oh se ride vuol dire che è vero"
-        "È un bagascione"
-        "Basta un cinquantino"
+        "Te sei un bimbettone",
+        "Boria 100%",
+        "Te  mi hai suonato il campanello",
+        "Ma te sei un depravato",
+        "Oh se ride vuol dire che è vero",
+        "È un bagascione",
+        "Basta un cinquantino",
         "Chi dei due fa l'omo?"
     ]
 }
