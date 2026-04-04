@@ -27,6 +27,14 @@ TRIGGERS = {
         "Basta un cinquantino",
         "Chi dei due fa l'omo?"
     ]
+    "cordoni": [
+        "Oh ma sei matto?",
+        "Vado a letto",
+        "nino?",
+        "c'è 20 euro",
+        "non c'ho una lira",
+        "questa settimana non posso bere"
+    ],
 }
 
 def ascolta(update, context):
