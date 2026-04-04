@@ -26,7 +26,7 @@ TRIGGERS = {
         "È un bagascione",
         "Basta un cinquantino",
         "Chi dei due fa l'omo?"
-    ]
+    ],
     "cordoni": [
         "Oh ma sei matto?",
         "Vado a letto",
