@@ -36,7 +36,15 @@ TRIGGERS = {
         "questa settimana non posso bere",
         "ho l'allergia",
         "questa settimana non posso mangiare",
-        "mi fa male la pancia"
+        "mi fa male la pancia",
+        "sei matto?? sono vecchio",
+        "ho 13 anni",
+        "ho 22 anni",
+        "sono del '98",
+        "sono un 2003",
+        "mia mamma è svedese",
+        "mia mamma è francese",
+        "mia mamma è brasiliana",
     ],
     
 
@@ -55,10 +63,10 @@ TRIGGERS = {
          "sono povero",
          "eehhhvv amico mio",
          "no qui non lo fai",
-         " :monkey_face: "
+         " 🐵 "
     ],
     "prova": [
-        " :monkey_face: "
+        " 🐵 "
     ],
 }
 def ascolta(update, context):
