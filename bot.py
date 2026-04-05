@@ -65,6 +65,9 @@ TRIGGERS = {
          "no qui non lo fai",
          " 🐵 "
     ],
+    "?": [
+        "fatti i cazzi tuoi"
+    ],
     "prova": [
         " 🐵 "
     ],
