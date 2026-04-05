@@ -27,7 +27,7 @@ TRIGGERS = {
         "Basta un cinquantino",
         "Chi dei due fa l'omo?"
     ],
-    "cordoni", "matte", "cordy": [
+    "cordoni" [
         "Oh ma sei matto?",
         "Vado a letto",
         "nino?",
