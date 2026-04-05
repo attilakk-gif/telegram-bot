@@ -46,7 +46,15 @@ TRIGGERS = {
         "il mio Spezia",
         "ma voi state male",
         "buonasera dottore",
-        "quella è la porta"
+        "quella è la porta",
+         "sono il miglior barista di Cascina",
+         "Wimo è il miglior locale del mondo",
+         "Missiva? (poi non esce)",
+         "Fortnite?",
+         "sono la miglior cosa che vi poteva succedere",
+         "sono povero",
+         "eehhhvv amico mio",
+         "no qui non lo fai"
     ],
 }
 def ascolta(update, context):
