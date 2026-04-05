@@ -27,13 +27,16 @@ TRIGGERS = {
         "Basta un cinquantino",
         "Chi dei due fa l'omo?"
     ],
-    "cordoni": [
+    "cordoni", "matte", "cordy": [
         "Oh ma sei matto?",
         "Vado a letto",
         "nino?",
         "c'è 20 euro",
         "non c'ho una lira",
-        "questa settimana non posso bere"
+        "questa settimana non posso bere",
+        "ho l'allergia",
+        "questa settimana non posso mangiare",
+        "mi fa male la pancia"
     ],
 }
 
