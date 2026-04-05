@@ -54,7 +54,11 @@ TRIGGERS = {
          "sono la miglior cosa che vi poteva succedere",
          "sono povero",
          "eehhhvv amico mio",
-         "no qui non lo fai"
+         "no qui non lo fai",
+         " :monkey_face: "
+    ],
+    "prova": [
+        " :monkey_face: "
     ],
 }
 def ascolta(update, context):
