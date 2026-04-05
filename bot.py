@@ -27,7 +27,7 @@ TRIGGERS = {
         "Basta un cinquantino",
         "Chi dei due fa l'omo?"
     ],
-    "cordoni" [
+    "cordoni": [
         "Oh ma sei matto?",
         "Vado a letto",
         "nino?",
@@ -38,8 +38,17 @@ TRIGGERS = {
         "questa settimana non posso mangiare",
         "mi fa male la pancia"
     ],
-}
+    
 
+     "nico": [
+        "ci sto! sono dentro",
+        "Oh ma te sei scemo",
+        "il mio Spezia",
+        "ma voi state male",
+        "buonasera dottore",
+        "quella è la porta"
+    ],
+}
 def ascolta(update, context):
     if update.message and update.message.text:
         testo = update.message.text.lower()
